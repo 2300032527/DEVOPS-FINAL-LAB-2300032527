@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 
 function App() {
-  const BASE_URL = "${import.meta.env.VITE_API_URL}/applicant";
+  const BASE_URL = `${import.meta.env.VITE_API_URL}/applicant`;
 
   const [applicants, setApplicants] = useState([]);
   const [newApplicant, setNewApplicant] = useState({
